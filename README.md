@@ -6,7 +6,7 @@
 
 ## 目录结构
 
-\`\`\`markdown
+```markdown
 ├── docs                    # 文档目录，包含最佳实践和使用指南
 │   ├── [best-practices.md](docs/best-practices.md)    # Prompt最佳实践指南
 │   └── [usage-guide.md](docs/usage-guide.md)       # 项目使用指南
@@ -25,12 +25,12 @@
 │   └── [optimization-prompts.md](task-based/optimization-prompts.md)
 ├── LICENSE                  # 项目开源协议
 └── README.md                # 项目说明文件
-\`\`\`
+```
 
 ## 使用指南
 要开始使用本项目，请参阅 [使用指南](docs/usage-guide.md) 以了解如何将prompt集成到你的开发工作流中。
 
-\`\`\`bash
+```bash
 # 克隆项目
 git clone https://github.com/your-repo/prompt-developer.git
 
@@ -39,7 +39,7 @@ cd prompt-developer
 
 # 阅读使用指南
 open docs/usage-guide.md
-\`\`\`
+```
 
 ## 示例
 项目提供了丰富的 [示例](examples/sample-input-output.md)，展示了如何在不同语言和框架中使用prompt。你可以参考以下示例来构建自己的prompt：
